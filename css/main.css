@@ -105,9 +105,24 @@ ul, li, nav {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #6c6c6c;
+  padding: 1em;
 }
 
+nav, aside {
+    margin: .5em;
+  }
+
+nav, aside li {
+  color: #666666;
+  text-decoration: none;
+}
+
+p {
+  text-align: left;
+  margin-left: 3.5em;
+  color: #666666;
+}
 
   /*End common rules*/
 
@@ -115,7 +130,6 @@ a {
 
 body {
   height: 100%;
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -130,7 +144,26 @@ body {
 
 .flex {
   display: flex;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.flexCenter {
   align-content: center;
+  align-items: center;
+}
+
+.flexEnd {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.font {
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
   /* end global classes */
@@ -141,22 +174,85 @@ body {
 .aside {
   justify-content: flex-end;
   align-items: flex-end;
+  align-content: flex-end;
 }
+
+a:hover {
+    color:black;
+    text-decoration: underline;
+  }
+
+.icon {
+    width: 6%;
+  }
+
+.btnConnex {
+  border: 1px solid;
+  border-radius: 5px;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  color: white;
+  padding: .5em;
+  cursor: default;
+}
+
 
   /*End header style*/
 
 
   /* Start footer style*/
 
+footer {
+  font-size: 13px;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+}
 
+.border {
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
 
+ul {
+  align-content: flex-start;
+  align-items: flex-end;
+}
+
+ul {
+  color: #6c6c6c;
+  padding-left: 1em;
+  padding-top: 1em;
+  margin: 1em;
+}
   /*End footer style*/
 
 
 
   /* Start main style*/
 
+main {
+  margin-top: 5em;
+}
 
+.img {
+  width: 30%;
+  height: 30%;
+}
+
+.btn {
+  height: .5em;
+  line-height: .5em;
+  background-color: #f6f6f6;
+  padding: .5em 1em;
+  margin: 2em;
+}
+
+.input {
+  box-shadow: 6px 6px 15px #e2e2e2;
+  line-height: 34px;
+}
 
   /*End main style*/
 

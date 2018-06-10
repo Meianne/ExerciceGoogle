@@ -97,15 +97,68 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  /* start common rules */
+
+ul, li, nav {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+  /*End common rules*/
+
+  /* start global classes */
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mainColor {
+  background-color: #FFFFFF;
+}
+
+.secondColor {
+  background-color: #f6f6f6;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
+}
+
+  /* end global classes */
+
+
+  /* Start Header style*/
+
+.aside {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+  /*End header style*/
+
+
+  /* Start footer style*/
 
 
 
+  /*End footer style*/
 
 
 
+  /* Start main style*/
 
 
 
+  /*End main style*/
 
 
 
